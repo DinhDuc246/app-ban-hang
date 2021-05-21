@@ -111,13 +111,11 @@ public class HomeFragment extends Fragment  implements View.OnClickListener{
         recyclerView = view.findViewById(R.id.recyclerviewproduct);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(view.getContext()));
-        recyclerView.setAdapter();
-        
-
-
-
-
-
+//        recyclerView.setAdapter();
+//
+//
+//
+//
         onSetNavigationDrawerEvents();
         return view;
     }
