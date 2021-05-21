@@ -58,7 +58,11 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:contentDescription="Profile Image"
+<<<<<<< HEAD
             android:src="@mipmap/ic_launcher_round"
+=======
+            android:src="@drawable/ic_launcher_background"
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede
             app:layout_constraintDimensionRatio="1:1"
             app:layout_constraintTop_toTopOf="@id/margin_top_percentage"
             app:layout_constraintStart_toStartOf="@id/margin_start_percentage"
@@ -82,11 +86,20 @@
             android:layout_height="0dp"
             android:layout_marginEnd="8dp"
             android:contentDescription="Logout Image"
+<<<<<<< HEAD
             android:src="@drawable/ic_launcher_background"
             app:layout_constraintDimensionRatio="1:1"
             app:layout_constraintTop_toTopOf="@+id/tv_dashboardHeader_profileName"
             app:layout_constraintEnd_toStartOf="@id/tv_logout"
             app:layout_constraintBottom_toBottomOf="@+id/tv_dashboardHeader_profileName" />
+=======
+            android:src="@drawable/ic_baseline_login_24"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintTop_toTopOf="@+id/tv_dashboardHeader_profileName"
+            app:layout_constraintEnd_toStartOf="@id/tv_logout"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_dashboardHeader_profileName"
+            android:layout_marginRight="8dp" />
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede
 
         <TextView
             android:id="@+id/tv_logout"

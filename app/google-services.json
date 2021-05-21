@@ -1,19 +1,32 @@
 {
   "project_info": {
+<<<<<<< HEAD
     "project_number": "989836128250",
     "project_id": "alohadelivery-2913d",
     "storage_bucket": "alohadelivery-2913d.appspot.com"
+=======
+    "project_number": "173221236636",
+    "project_id": "food-app-f77e6",
+    "storage_bucket": "food-app-f77e6.appspot.com"
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede
   },
   "client": [
     {
       "client_info": {
+<<<<<<< HEAD
         "mobilesdk_app_id": "1:989836128250:android:86d3ec3d7d718c7935fe43",
         "android_client_info": {
           "package_name": "com.example.hyhy"
+=======
+        "mobilesdk_app_id": "1:173221236636:android:396b5297c8e8eff4788259",
+        "android_client_info": {
+          "package_name": "com.example.foodapp"
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede
         }
       },
       "oauth_client": [
         {
+<<<<<<< HEAD
           "client_id": "989836128250-3dbmihq5j8ftv06496vong2keu93o79g.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -23,19 +36,30 @@
         },
         {
           "client_id": "989836128250-mb9cb086h9vqlpmb1oupcuh78u4ro0rh.apps.googleusercontent.com",
+=======
+          "client_id": "173221236636-u3dloa2spbhv55n6vfrqdainl3b18bva.apps.googleusercontent.com",
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede
           "client_type": 3
         }
       ],
       "api_key": [
         {
+<<<<<<< HEAD
           "current_key": "AIzaSyCIbrpZe-LP2Z0KEkqPVrop2jleCs1DIMo"
+=======
+          "current_key": "AIzaSyDJAg2z3tvoCuXr-MIoTYaCeoqUQksNVAE"
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
+<<<<<<< HEAD
               "client_id": "989836128250-mb9cb086h9vqlpmb1oupcuh78u4ro0rh.apps.googleusercontent.com",
+=======
+              "client_id": "173221236636-u3dloa2spbhv55n6vfrqdainl3b18bva.apps.googleusercontent.com",
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede
               "client_type": 3
             }
           ]

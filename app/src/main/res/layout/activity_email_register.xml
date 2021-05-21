@@ -11,6 +11,7 @@
         android:id="@+id/relativeLayout"
         android:layout_width="0dp"
         android:layout_height="150dp"
+<<<<<<< HEAD
         android:background="@color/orange"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -27,17 +28,49 @@
             android:background="@android:color/transparent"
             android:tint="@color/white"
             app:srcCompat="@drawable/back_button_icon" />
+=======
+
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="38dp"
+            android:layout_height="37dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="33dp"
+            android:background="@color/black"
+            android:onClick="BackMainPage"
+            android:tint="@color/white"
+            app:srcCompat="@drawable/back" />
+
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede
     </RelativeLayout>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="0dp"
+<<<<<<< HEAD
         android:layout_height="60dp"
         android:layout_marginStart="64dp"
         android:layout_marginTop="120dp"
         android:layout_marginEnd="64dp"
         android:elevation="10dp"
         android:translationZ="8dp"
+=======
+        android:layout_height="70dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:elevation="20dp"
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede
         app:cardCornerRadius="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,6 +80,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+<<<<<<< HEAD
             android:fontFamily="cursive"
             android:gravity="center"
             android:text="Sign Up"
@@ -55,12 +89,22 @@
 
     </androidx.cardview.widget.CardView>
 
+=======
+            android:fontFamily="monospace"
+            android:text="Đăng Ký"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+    </androidx.cardview.widget.CardView>
+
+
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
         android:orientation="vertical"
+<<<<<<< HEAD
         app:layout_constraintBottom_toTopOf="@+id/btn_continue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -129,10 +173,71 @@
             android:onClick="goToLogin"
             android:text="Already have an account?"
             android:textColor="@color/orange" />
+=======
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/skip_button"
+            android:drawableLeft="@drawable/person"
+            android:drawablePadding="20sp"
+            android:hint="Tên"
+            android:inputType="text"
+            android:padding="16dp"></EditText>
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/skip_button"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="20sp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="16dp"></EditText>
+
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/skip_button"
+            android:drawableLeft="@drawable/pass"
+            android:drawablePadding="20sp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="16dp"></EditText>
+
+
+        <TextView
+            android:onClick="goToLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đã có tài khoản? Đăng nhập tại đây"
+            android:gravity="right"
+            android:layout_margin="10dp"
+            android:textColor="#F44336"
+            tools:ignore="OnClick" />
+
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede
 
     </LinearLayout>
 
     <Button
+<<<<<<< HEAD
         android:id="@+id/btn_continue"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -148,5 +253,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+=======
+        android:id="@+id/regBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EF0A0A"
+        android:drawablePadding="10sp"
+        android:hint="Đăng Ký"
+        android:padding="3dp"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></Button>
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede
 
 </androidx.constraintlayout.widget.ConstraintLayout>

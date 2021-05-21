@@ -1,6 +1,12 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">MonaDelivery</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="map_key" templateMergeStrategy="preserve" translatable="false">Maps</string>
+=======
+    <string name="app_name">Food app</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede
 </resources>

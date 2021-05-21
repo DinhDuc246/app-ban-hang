@@ -4,6 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
+<<<<<<< HEAD
     android:layout_height="wrap_content">
 
 
@@ -15,6 +16,21 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:scaleType="centerCrop"
+=======
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

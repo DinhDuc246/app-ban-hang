@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <RelativeLayout
+=======
+<androidx.constraintlayout.widget.ConstraintLayout
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="@color/white"
     tools:context=".MainActivity">
    <Button
@@ -119,3 +124,120 @@
 
 
 </RelativeLayout>
+=======
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:onClick="skipBtn"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:elevation="16dp"
+        android:text="Bỏ qua"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:background="@drawable/skip_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button"
+        app:srcCompat="@drawable/logo2" />
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/linear_conners"
+        android:elevation="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linear2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerview">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_baseline_email_24"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Tiếp tục với Email"
+            android:textColor="@color/black"
+            android:textSize="24dp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/linear_conners"
+        android:elevation="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_baseline_perm_phone_msg_24"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Tiếp tục với điện thoại"
+            android:textColor="@color/black"
+            android:textSize="24dp"></TextView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bằng cách nhấp vào tiếp tục, bạn đồng ý với điều khoản dịch vụ và chính sách bảo mật của chúng tôi"
+        android:textAlignment="center"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/linear2"
+        app:layout_constraintStart_toStartOf="@+id/linear2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede

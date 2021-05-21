@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
+=======
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede
     android:orientation="vertical">
 
     <RelativeLayout
@@ -12,13 +21,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+<<<<<<< HEAD
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
+=======
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
+<<<<<<< HEAD
             android:id="@+id/tv_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -59,14 +76,52 @@
         android:layout_height="1dp"
         android:layout_marginTop="8dp"
         android:background="@color/grey"/>
+=======
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Login or Sign Up"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="24sp"
+            android:layout_height="24sp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_baseline_login_24"
+            app:tint="#A8000000" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="@+id/relativeLayout2"
+        app:layout_constraintStart_toStartOf="@+id/relativeLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2" />
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede
 
     <RelativeLayout
         android:id="@+id/relativeLayout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+<<<<<<< HEAD
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
+=======
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -76,6 +131,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
+<<<<<<< HEAD
             android:layout_centerVertical="true"
             android:text="Bookmarks"
             android:textColor="@color/black"
@@ -90,10 +146,28 @@
             android:layout_centerVertical="true"
             android:src="@drawable/right_arrow"
             app:tint="@color/grey" />
+=======
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Exit "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="24sp"
+            android:layout_height="24sp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/skip_button"
+            app:tint="#37000000" />
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede
     </RelativeLayout>
 
     <View
         android:id="@+id/divider1"
+<<<<<<< HEAD
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="8dp"
@@ -316,3 +390,14 @@
 
 </LinearLayout>
 
+=======
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="@+id/relativeLayout2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/relativeLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede

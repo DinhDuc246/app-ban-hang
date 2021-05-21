@@ -1,11 +1,21 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< HEAD
     <style name="Theme.HyHy" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Primary brand color. -->
 
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
 
+=======
+    <style name="Theme.FoodApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/ic_launcher_background</item>
+        <item name="colorPrimaryVariant">@color/ic_launcher_background</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->

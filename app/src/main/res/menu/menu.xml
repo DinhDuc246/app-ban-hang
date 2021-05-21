@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
+<<<<<<< HEAD
         android:id="@+id/orders"
         android:icon="@drawable/basket"
         android:title="Order"/>
@@ -21,6 +22,24 @@
         android:icon="@drawable/ic_cart"
         android:title="Cart"/>
 
+=======
+        android:id="@+id/homeproduct"
+        android:icon="@drawable/house"
+        android:title="Home"/>
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/ic_baseline_notifications_active_24"
+        android:title="notification"/>
+    <item
+        android:id="@+id/cart"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="cart"/>
+
+    <item
+        android:id="@+id/user"
+        android:icon="@drawable/person"
+        android:title="user"/>
+>>>>>>> 661fa3f173e87a2feb788679ce49f5e748ab4ede
 
 
 </menu>

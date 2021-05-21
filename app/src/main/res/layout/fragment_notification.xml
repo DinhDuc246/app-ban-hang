@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HomeFragment">
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/layoutOne"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsingtoolbarlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                app:layout_scrollFlags="scroll|snap|enterAlwaysCollapsed">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:id="@+id/location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Đường Nam Kỳ khởi nghĩa,  Ngũ Hành Sơn"
+                        android:textColor="@color/black"
+                        android:maxLength="35"
+                        android:textSize="18dp"
+                        android:drawablePadding="8dp"
+                        android:layout_centerVertical="true"
+                        android:drawableLeft="@drawable/location"
+                        android:drawableTint="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="..."
+                        android:textSize="18dp"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/black"
+                        android:layout_toEndOf="@+id/location"
+                        android:layout_toRightOf="@+id/location"></TextView>
+                    <ImageView
+                        android:id="@+id/navigationBar"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="8dp"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/menu"
+                        app:tint="@color/black"
+                        android:layout_alignParentRight="true"></ImageView>
+
+
+                </RelativeLayout>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsingtoolbarlayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+                >
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolBar1"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@color/white"
+                    app:layout_collapseMode="pin"
+                    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginRight="16dp"
+                        android:drawableLeft="@drawable/search"
+                        android:focusable="false"
+                        android:hint="Tìm kiếm"
+                        android:background="#9CF1EAEA"
+                        android:textColorHint="#BFAACD"/>
+
+                </androidx.appcompat.widget.Toolbar>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hiện không có thông báo nào"
+                    android:layout_marginTop="200dp"
+                    android:layout_marginLeft="100dp"></TextView>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
